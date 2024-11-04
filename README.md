@@ -21,7 +21,7 @@ index=_audit action="login attempt" info="failed"
 | where count > 1
 ```
 
-![Audit Log Query](screenshots/screenshot2.png)
+![Audit Log Query](screenshots/Splunk%20Screenshot%202.PNG)
 *Search results showing failed login attempts aggregated by user and source IP*
 
 ### Alert Configuration
@@ -30,11 +30,11 @@ Implemented practical alerting thresholds:
 - **Investigation**: >5 failed attempts/5 minutes
 - **Critical**: >10 failed attempts/5 minutes
 
-![Alert Configuration](screenshots/screenshot7.png)
+![Alert Configuration](screenshots/Splunk%20Screenshot%207.PNG)
 *Alert configuration panel showing threshold settings and notification options*
 
 ### Dashboard Components
-![Threat Detection Dashboard](screenshots/screenshot3.png)
+![Threat Detection Dashboard](screenshots/Splunk%20Screenshot%203.PNG)
 *Custom dashboard showing real-time login activity monitoring*
 
 Key Panels Include:
@@ -43,7 +43,7 @@ Key Panels Include:
 3. Source IP Distribution
 4. Account Impact Assessment
 
-![Login Activity Timechart](screenshots/screenshot5.png)
+![Login Activity Timechart](screenshots/Splunk%20Screenshot%205.PNG)
 *Timeline visualization of login attempts showing patterns over time*
 
 ## 📊 Sample Metrics
@@ -60,7 +60,7 @@ Based on testing during development:
 Log Sources → Splunk Indexer → Custom Queries → Alert Engine → SOC Dashboard
 ```
 
-![Dashboard with Data Sources](screenshots/screenshot6.png)
+![Dashboard with Data Sources](screenshots/Splunk%20Screenshot%206.PNG)
 *Final dashboard showing integrated data sources and real-time monitoring*
 
 ### System Components
@@ -82,11 +82,11 @@ Log Sources → Splunk Indexer → Custom Queries → Alert Engine → SOC Dashb
 ## 🔄 Testing & Validation
 
 ### Simulation Results
-![Failed Login Simulation](screenshots/screenshot8.png)
+![Failed Login Simulation](screenshots/Splunk%20Screenshot%208.PNG)
 *Results from simulated brute-force attack showing detection capability*
 
 ### Alert Verification
-![Triggered Alert](screenshots/screenshot9.png)
+![Triggered Alert](screenshots/Splunk%20Screenshot%209.PNG)
 *Successfully triggered alert showing detection of suspicious login activity*
 
 ## 💡 Security Benefits
@@ -108,7 +108,7 @@ Demonstrated capabilities include:
 - Effective visualization of security events
 - Proper incident documentation
 
-![Dashboard with Results](screenshots/screenshot6.png)
+![Dashboard with Results](screenshots/Splunk%20Screenshot%2010.PNG)
 *Dashboard showing actual detection results from testing*
 
 ## 🎓 Skills Demonstrated
