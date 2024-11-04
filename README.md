@@ -3,7 +3,7 @@
 ## 🔐 Project Overview
 A practical Security Information and Event Management (SIEM) implementation demonstrating brute-force attack detection using Splunk. This project showcases fundamental SOC analyst skills including log analysis, alert configuration, and incident response capabilities.
 
-![Initial Splunk Dashboard](screenshots/Splunk%20Screenshot%201.png)
+![Initial Splunk Dashboard](screenshots/Splunk%20Screenshot%201.PNG)
 *Initial Splunk environment showing the search interface and key monitoring panels*
 
 ## 🎯 Key Features
