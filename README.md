@@ -1,4 +1,4 @@
-# Enterprise-Grade Brute-Force Detection System Using Splunk
+# Brute-Force Detection and Monitoring in Splunk
 
 ## 🔐 Project Overview
 A practical Security Information and Event Management (SIEM) implementation demonstrating brute-force attack detection using Splunk. This project showcases fundamental SOC analyst skills including log analysis, alert configuration, and incident response capabilities.
